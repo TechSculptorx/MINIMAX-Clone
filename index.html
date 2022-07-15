@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MINIMAX</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="https://kit.fontawesome.com/036029d3fd.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <div class="logo">
+                    <a href="#">
+                        <h2>MINIMAX</h2>
+                    </a>
+                </div>
+                <!--hamburger menu-->
+                <div class="hamburger-container">
+                    <div class="hamburger"></div>
+                </div>
+
+                <!--hamburger menu end-->
+                <ul class="nav-links flex-center">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT US</a></li>
+                    <li><a href="#">TEAM</a></li>
+                    <li><a href="#">SERVICES</a></li>
+                    <li><a href="#">PORTFOILIO</a></li>
+                    <li><a href="#">PRICING</a></li>
+                    <li><a href="#">BLOG</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+
+
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!--Hero section-->
+        <section class="hero">
+            <div class="slider">
+                <div class="slide current">
+                    <div class="content">
+                        <h1>Welcome To Minimax</h1>
+                        <h2>
+                            WE ARE PROFESSIONAL
+                        </h2>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="content">
+                        <h1>Welcome To Minimax</h1>
+                        <h2>
+                            WE ARE MINIMALIST
+                        </h2>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="content">
+                        <h1>Welcome To Minimax</h1>
+                        <h2>
+                            WE ARE DEVLOPER
+                        </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="buttons">
+                <button id="prev"><i class="fa-solid fa-angle-left"></i></button>
+                <button id="next"><i class="fa-solid fa-angle-right"></i></button>
+            </div>
+        </section>
+        <!--Hero section end-->
+    </main>
+    <!--sec-section-->
+    <section class="about">
+        <div class="container">
+            <div class="left">
+                <h2>WELCOME TO <strong>MINIMAX</strong></h2>
+                <p>
+                    Lorem ipsum scelerisque molestie id molestie magna ante etiam sollicitudin tempus consectetur
+                    conubia, urna eros nunc curabitur viverra rutrum tortor luctus torquent mollis est dictum euismod
+                </p>
+                <ul style="margin-bottom: 2.5rem;">
+                    <li><i class="fa-solid fa-angle-right"></i>We love products that work perfectly and look beautiful.
+                    </li>
+                    <li><i class="fa-solid fa-angle-right"></i>We create base on a deeply analysis of your project.</li>
+                    <li><i class="fa-solid fa-angle-right"></i>We are create design with really high quality standards.
+                    </li>
+                </ul>
+                <button class="main-btn">LEARN MORE</button>
+            </div>
+            <div class="right">
+                <img src="./images/about.webp" alt="about image">
+            </div>
+        </div>
+    </section>
+    <!--sec-section end --->
+
+    <!--About us section-->
+
+    <section class="about-us">
+        <div class="about-box">
+            <div class="content">
+                <h2>01</h2>
+                <h4>THINKING.</h4>
+                <p>
+                    Lorem ipsum scelerisque molestie id molestie magna ante etiam
+                    sollicitudin tempus consectetur conubia, urna eros nunc curabitur
+                    viverra rutrum tortor .
+                </p>
+            </div>
+        </div>
+        <div class="about-box">
+            <div class="content">
+                <h2>02</h2>
+                <h4>DESIGN.</h4>
+                <p>
+                    Lorem ipsum scelerisque molestie id molestie magna ante etiam
+                    sollicitudin tempus consectetur conubia, urna eros nunc curabitur
+                    viverra rutrum tortor .
+                </p>
+            </div>
+        </div>
+        <div class="about-box">
+            <div class="content">
+                <h2>03</h2>
+                <h4>DEVLOPMENT.</h4>
+                <p>
+                    Lorem ipsum scelerisque molestie id molestie magna ante etiam
+                    sollicitudin tempus consectetur conubia, urna eros nunc curabitur
+                    viverra rutrum tortor .
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!--About us section end-->
+
+    <!--Team section-->
+
+    <section class="team">
+        <div class="container">
+            <div class="page-title flex-center">
+                <h2>GREAT TEAM</h2>
+                <p>
+                    Uaerat litora, taciti quaerat dolor ligula laoreet omnis aut
+                    scelerisque ex fuga platea eveniet pulvinar praesent molestiae
+                    maiores, quidem cumque!
+                </p>
+            </div>
+            <div class="row">
+                <div class="card-wrap">
+                    <div class="team-member">
+                        <img src="./images/team-1.webp" alt="first-member">
+                        <div class="buttons-on-img">
+                            <ul>
+                                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-tumblr"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-dribbble"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="team-info">
+                        <h3>JON DOE</h3>
+                        <p>DEVLOPER</p>
+                    </div>
+                </div>
+
+                <div class="card-wrap">
+                    <div class="team-member">
+                        <img src="./images/team-2.webp" alt="first-member">
+                        <div class="buttons-on-img">
+                            <ul>
+                                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-tumblr"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-dribbble"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="team-info">
+                        <h3>JON DOE</h3>
+                        <p>DEVLOPER</p>
+                    </div>
+                </div>
+
+                <div class="card-wrap">
+                    <div class="team-member">
+                        <img src="./images/team-3.webp" alt="first-member">
+                        <div class="buttons-on-img">
+                            <ul>
+                                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-tumblr"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-dribbble"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="team-info">
+                        <h3>JON DOE</h3>
+                        <p>DEVLOPER</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Team section end-->
+
+    <!--service section -->
+
+    <section class="service">
+        <div class="container">
+            <div class="page-title flex-center">
+                <h2>GREAT TEAM</h2>
+                <p>
+                    Uaerat litora, taciti quaerat dolor ligula laoreet omnis aut
+                    scelerisque ex fuga platea eveniet pulvinar praesent molestiae
+                    maiores, quidem cumque!
+                </p>
+            </div>
+            <div class="service-wrap">
+                <div class="service-card">
+                    <div class="content">
+                        <i class="fa-solid fa-laptop-code"></i>
+                        <h3>WEB DESIGN</h3>
+                        <p>
+                            Uaerat litora, taciti quaerat dolor ligula laoreet omnis aut
+                            scelerisque ex fuga platea eveniet pulvinar praesent
+                        </p>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="content">
+                        <i class="fa-solid fa-laptop-code"></i>
+                        <h3>WEB DESIGN</h3>
+                        <p>
+                            Uaerat litora, taciti quaerat dolor ligula laoreet omnis aut
+                            scelerisque ex fuga platea eveniet pulvinar praesent
+                        </p>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="content">
+                        <i class="fa-solid fa-laptop-code"></i>
+                        <h3>WEB DESIGN</h3>
+                        <p>
+                            Uaerat litora, taciti quaerat dolor ligula laoreet omnis aut
+                            scelerisque ex fuga platea eveniet pulvinar praesent
+                        </p>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="content">
+                        <i class="fa-solid fa-laptop-code"></i>
+                        <h3>WEB DESIGN</h3>
+                        <p>
+                            Uaerat litora, taciti quaerat dolor ligula laoreet omnis aut
+                            scelerisque ex fuga platea eveniet pulvinar praesent
+                        </p>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="content">
+                        <i class="fa-solid fa-laptop-code"></i>
+                        <h3>WEB DESIGN</h3>
+                        <p>
+                            Uaerat litora, taciti quaerat dolor ligula laoreet omnis aut
+                            scelerisque ex fuga platea eveniet pulvinar praesent
+                        </p>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="content">
+                        <i class="fa-solid fa-laptop-code"></i>
+                        <h3>WEB DESIGN</h3>
+                        <p>
+                            Uaerat litora, taciti quaerat dolor ligula laoreet omnis aut
+                            scelerisque ex fuga platea eveniet pulvinar praesent
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--service section end-->
+
+    <!--portfolio section -->
+
+    <section class="portfolio">
+        <div class="container">
+            <div class="page-title flex-center">
+                <h2>GREAT TEAM</h2>
+                <p>
+                    Uaerat litora, taciti quaerat dolor ligula laoreet omnis aut
+                    scelerisque ex fuga platea eveniet pulvinar praesent molestiae
+                    maiores, quidem cumque!
+                </p>
+            </div>
+            <div class="portfolio-btns flex-center">
+                <button class="portfolio-btn active">ALL</button>
+                <button class="portfolio-btn">GRAPHIC</button>
+                <button class="portfolio-btn">WEB DESIGN</button>
+                <button class="portfolio-btn">BRANDING</button>
+            </div>
+            <div class="card-wraping">
+                <div class="card-wrapper">
+                    <div class="col">
+                        <div class="portfolio-card">
+                            <div class="img">
+                                <img src="./images/portfolio-1.webp" alt="">
+                                <div class="animation">
+                                    <a href="#"><i class="fa-solid fa-plus"></i></a>
+                                </div>
+                            </div>
+                            <div class="portfolio-card-content">
+                                <h3><a href="#">TITLE GOSE HERE</a></h3>
+                                <p>Devlopment</p>
+                            </div>
+                        </div>
+
+                        <div class="portfolio-card">
+                            <div class="img">
+                                <img src="./images/portfolio-4.webp" alt="">
+                                <div class="animation">
+                                    <a href="#"><i class="fa-solid fa-plus"></i></a>
+                                </div>
+                            </div>
+                            <div class="portfolio-card-content">
+                                <h3><a href="#">TITLE GOSE HERE</a></h3>
+                                <p>Devlopment</p>
+                            </div>
+                        </div>
+
+                        <div class="portfolio-card">
+                            <div class="img">
+                                <img src="./images/portfolio-7.webp" alt="">
+                                <div class="animation">
+                                    <a href="#"><i class="fa-solid fa-plus"></i></a>
+                                </div>
+                            </div>
+                            <div class="portfolio-card-content">
+                                <h3><a href="#">TITLE GOSE HERE</a></h3>
+                                <p>Devlopment</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="portfolio-card">
+                            <div class="img">
+                                <img src="./images/portfolio-2.webp" alt="">
+                                <div class="animation">
+                                    <a href="#"><i class="fa-solid fa-plus"></i></a>
+                                </div>
+                            </div>
+                            <div class="portfolio-card-content">
+                                <h3><a href="#">TITLE GOSE HERE</a></h3>
+                                <p>Devlopment</p>
+                            </div>
+                        </div>
+
+                        <div class="portfolio-card">
+                            <div class="img">
+                                <img src="./images/portfolio-5.webp" alt="">
+                                <div class="animation">
+                                    <a href="#"><i class="fa-solid fa-plus"></i></a>
+                                </div>
+                            </div>
+                            <div class="portfolio-card-content">
+                                <h3><a href="#">TITLE GOSE HERE</a></h3>
+                                <p>Devlopment</p>
+                            </div>
+                        </div>
+
+                        <div class="portfolio-card">
+                            <div class="img">
+                                <img src="./images/portfolio-8.webp" alt="">
+                                <div class="animation">
+                                    <a href="#"><i class="fa-solid fa-plus"></i></a>
+                                </div>
+                            </div>
+                            <div class="portfolio-card-content">
+                                <h3><a href="#">TITLE GOSE HERE</a></h3>
+                                <p>Devlopment</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="portfolio-card">
+                            <div class="img">
+                                <img src="./images/portfolio-3.webp" alt="">
+                                <div class="animation">
+                                    <a href="#"><i class="fa-solid fa-plus"></i></a>
+                                </div>
+                            </div>
+                            <div class="portfolio-card-content">
+                                <h3><a href="#">TITLE GOSE HERE</a></h3>
+                                <p>Devlopment</p>
+                            </div>
+                        </div>
+
+                        <div class="portfolio-card">
+                            <div class="img">
+                                <img src="./images/portfolio-6.webp" alt="">
+                                <div class="animation">
+                                    <a href="#"><i class="fa-solid fa-plus"></i></a>
+                                </div>
+                            </div>
+                            <div class="portfolio-card-content">
+                                <h3><a href="#">TITLE GOSE HERE</a></h3>
+                                <p>Devlopment</p>
+                            </div>
+                        </div>
+
+                        <div class="portfolio-card">
+                            <div class="img">
+                                <img src="./images/portfolio-9.webp" alt="">
+                                <div class="animation">
+                                    <a href="#"><i class="fa-solid fa-plus"></i></a>
+                                </div>
+                            </div>
+                            <div class="portfolio-card-content">
+                                <h3><a href="#">TITLE GOSE HERE</a></h3>
+                                <p>Devlopment</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="btn-port">
+                <button class="main-btn">
+                    VIEW MORE
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!--portfoilio section end-->
+
+    <!-- detail section -->
+
+    <section class="detail">
+        <div class="container">
+            <div class="detail-wrapper">
+                <div class="detail-main">
+                    <div class="detail-sec">
+                        <div class="icon-detail"><i class="fa-solid fa-briefcase"></i></div>
+                        <div class="content-detail">
+                            <h2>360</h2>
+                            <p>product done</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="detail-main">
+                    <div class="detail-sec">
+                        <div class="icon-detail"><i class="fa-solid fa-wine-glass"></i></div>
+                        <div class="content-detail">
+                            <h2>690</h2>
+                            <p>cups of coffee</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="detail-main">
+                    <div class="detail-sec">
+                        <div class="icon-detail"><i class="fa-solid fa-lightbulb"></i></div>
+                        <div class="content-detail">
+                            <h2>420</h2>
+                            <p>branding</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="detail-main">
+                    <div class="detail-sec">
+                        <div class="icon-detail"><i class="fa-solid fa-face-smile"></i></div>
+                        <div class="content-detail">
+                            <h2>100</h2>
+                            <p>happy clients</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- detail section end-->
+
+    <!-- pricing section -->
+
+    <section class="pricing">
+        <div class="container">
+            <div class="page-title flex-center">
+                <h2>GREAT TEAM</h2>
+                <p>
+                    Uaerat litora, taciti quaerat dolor ligula laoreet omnis aut
+                    scelerisque ex fuga platea eveniet pulvinar praesent molestiae
+                    maiores, quidem cumque!
+                </p>
+            </div>
+            <div class="pricing-wrapper">
+                <div class="pricing-main">
+                    <div class="pricing-sec">
+                        <div class="pricing-top">
+                            <h3>basic plan</h3>
+                            <p>$24<span>/Month</span></p>
+                        </div>
+                        <div class="pricing-bottom">
+                            <div class="pricing-text">
+                                <ul>
+                                    <li>512MB memory</li>
+                                    <li>1 core processor</li>
+                                    <li>20GB SSD disk</li>
+                                    <li>1TB transfer</li>
+                                    <li>24 hour support</li>
+                                </ul>
+                            </div>
+                            <div class="pricing-button">
+                                <button class="main-btn">PURCHASE NOW</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pricing-main">
+                    <div class="pricing-sec">
+                        <div class="pricing-top">
+                            <h3>business plan</h3>
+                            <p>$34<span>/Month</span></p>
+                        </div>
+                        <div class="pricing-bottom">
+                            <div class="pricing-text">
+                                <ul>
+                                    <li>512MB memory</li>
+                                    <li>1 core processor</li>
+                                    <li>20GB SSD disk</li>
+                                    <li>1TB transfer</li>
+                                    <li>24 hour support</li>
+                                </ul>
+                            </div>
+                            <div class="pricing-button">
+                                <button class="main-btn">PURCHASE NOW</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pricing-main">
+                    <div class="pricing-sec">
+                        <div class="pricing-top">
+                            <h3>premium plan</h3>
+                            <p>$54<span>/Month</span></p>
+                        </div>
+                        <div class="pricing-bottom">
+                            <div class="pricing-text">
+                                <ul>
+                                    <li>512MB memory</li>
+                                    <li>1 core processor</li>
+                                    <li>20GB SSD disk</li>
+                                    <li>1TB transfer</li>
+                                    <li>24 hour support</li>
+                                </ul>
+                            </div>
+                            <div class="pricing-button">
+                                <button class="main-btn">PURCHASE NOW</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- pricing section end-->
+
+    <!-- quoet section -->
+
+    <section class="quoet">
+        <div class="container">
+            <div class="quoet-detail">
+                <i class="fa-solid fa-quote-right"></i>
+                <p>what people say ?</p>
+                <p>"Phasellus luctus commodo ullamcorper a posuere rhoncus commodo elit. Aenean congue, risus utaliquam
+                    dapibus. Thanks!"</p>
+                <p>-john doe,doodle inc.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- quoet section end -->
+
+    <!-- skill section  -->
+
+    <section class="skill">
+        <div class="container">
+            <div class="page-title flex-center">
+                <h2>GREAT TEAM</h2>
+                <p>
+                    Uaerat litora, taciti quaerat dolor ligula laoreet omnis aut
+                    scelerisque ex fuga platea eveniet pulvinar praesent molestiae
+                    maiores, quidem cumque!
+                </p>
+            </div>
+            <div class="skill-wrapper">
+                <div class="skill-circle">
+                    <div class="outer">
+                        <div class="number">
+                            <p>50%</p>
+                        </div>
+                    </div>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="10rem" height="10rem">
+                        <circle class="one" cx="80" cy="80" r="77" stroke-linecap="round" />
+                    </svg>
+
+                    <div class="outside">
+                        <p>HTML</p>
+                    </div>
+                </div>
+
+                <div class="skill-circle">
+                    <div class="outer">
+                        <div class="number">
+                            <p>65%</p>
+                        </div>
+                    </div>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="10rem" height="10rem">
+                        <circle class="two" cx="80" cy="80" r="77" stroke-linecap="round" />
+                    </svg>
+
+                    <div class="outside">
+                        <p>CSS</p>
+                    </div>
+                </div>
+
+                <div class="skill-circle">
+                    <div class="outer">
+                        <div class="number">
+                            <p>85%</p>
+                        </div>
+                    </div>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="10rem" height="10rem">
+                        <circle class="three" cx="80" cy="80" r="77" stroke-linecap="round" />
+                    </svg>
+
+                    <div class="outside">
+                        <p>JQUERY</p>
+                    </div>
+                </div>
+
+                <div class="skill-circle">
+                    <div class="outer">
+                        <div class="number">
+                            <p>90%</p>
+                        </div>
+                    </div>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="10rem" height="10rem">
+                        <circle class="four" cx="80" cy="80" r="77" stroke-linecap="round" />
+                    </svg>
+
+                    <div class="outside">
+                        <p>WORDPRESS</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- skill section end -->
+
+    <!-- blog section  -->
+
+    <section class="blog">
+        <div class="container">
+            <div class="page-title flex-center">
+                <h2>GREAT TEAM</h2>
+                <p>
+                    Uaerat litora, taciti quaerat dolor ligula laoreet omnis aut
+                    scelerisque ex fuga platea eveniet pulvinar praesent molestiae
+                    maiores, quidem cumque!
+                </p>
+            </div>
+            <div class="blog-card-wrapper">
+                <div class="blog-card">
+                    <div class="blog-img">
+                        <a href="#">
+                            <img src="./images/1.webp" alt="blog-pic">
+                        </a>
+                    </div>
+                    <div class="blog-detail">
+                        <div class="first-detail">
+                            <div class="span">
+                                <i class="fa-solid fa-user"></i>
+                                <p>salim rana</p>
+                            </div>
+                            <div class="span">
+                                <i class="fa-solid fa-calendar-day"></i>
+                                <p>14 october, 2016</p>
+                            </div>
+                        </div>
+                        <h3><a href="#">Lorem Ipsum is simply dummy</a></h3>
+                        <p class="detail-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut
+                            labore et dolore magna aliqua Ut enim..</p>
+                        <button class="main-btn">READ MORE</button>
+                    </div>
+                </div>
+
+                <div class="blog-card">
+                    <div class="blog-img">
+                        <a href="#">
+                            <img src="./images/2.webp" alt="blog-pic">
+                        </a>
+                    </div>
+                    <div class="blog-detail">
+                        <div class="first-detail">
+                            <div class="span">
+                                <i class="fa-solid fa-user"></i>
+                                <p>salim rana</p>
+                            </div>
+                            <div class="span">
+                                <i class="fa-solid fa-calendar-day"></i>
+                                <p>14 october, 2016</p>
+                            </div>
+                        </div>
+                        <h3><a href="#">Lorem Ipsum is simply dummy</a></h3>
+                        <p class="detail-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut
+                            labore et dolore magna aliqua Ut enim..</p>
+                        <button class="main-btn">READ MORE</button>
+                    </div>
+                </div>
+
+                <div class="blog-card">
+                    <div class="blog-img">
+                        <a href="#">
+                            <img src="./images/3.webp" alt="blog-pic">
+                        </a>
+                    </div>
+                    <div class="blog-detail">
+                        <div class="first-detail">
+                            <div class="span">
+                                <i class="fa-solid fa-user"></i>
+                                <p>salim rana</p>
+                            </div>
+                            <div class="span">
+                                <i class="fa-solid fa-calendar-day"></i>
+                                <p>14 october, 2016</p>
+                            </div>
+                        </div>
+                        <h3><a href="#">Lorem Ipsum is simply dummy</a></h3>
+                        <p class="detail-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut
+                            labore et dolore magna aliqua Ut enim..</p>
+                        <button class="main-btn">READ MORE</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- blog section end -->
+
+    <!-- contact section  -->
+
+    <section class="contact">
+        <div class="container">
+            <div class="page-title flex-center">
+                <h2>GREAT TEAM</h2>
+                <p>
+                    Uaerat litora, taciti quaerat dolor ligula laoreet omnis aut
+                    scelerisque ex fuga platea eveniet pulvinar praesent molestiae
+                    maiores, quidem cumque!
+                </p>
+            </div>
+
+            <div class="contact-info">
+                <div class="first-info">
+                    <input class="name" type="text" name="name" placeholder="Name*">
+                    <input class="email" type="email" placeholder="Emial*" name="email">
+                </div>
+                <div class="subject">
+                    <input type="text" placeholder="Subject*" name="subject">
+                </div>
+                <div class="message">
+                    <textarea name="message" cols="50" rows="10" placeholder="Type Your Message......."></textarea>
+                    <button class="main-btn-sec">SEND MESSAGE</button>
+                </div>
+
+                <div class="google-map">
+                    <iframe class="map-g"
+                        src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2965.0824050173574!2d-93.63905729999999!3d41.998507000000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sWebFilings%2C+University+Boulevard%2C+Ames%2C+IA!5e0!3m2!1sen!2sus!4v1390839289319"
+                        width="100%" height="400" frameborder="0" style="border:0"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section end -->
+
+    <!-- footer section  -->
+
+    <footer>
+        <div class="container">
+            <div class="foot-wrapper">
+                <div class="footer-info">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <h5>123 WEST STREET,MELBOURNE</h5>
+                </div>
+
+                <div class="footer-info">
+                    <i class="fa-solid fa-mobile-screen"></i>
+                    <h5>+1 234 567 89 00</h5>
+                </div>
+
+                <div class="footer-info">
+                    <i class="fa-solid fa-envelope"></i>
+                    <h5>DEVITEMS@GMAIL.COM</h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <div class="container">
+                <p>&#169; <a href="#">HASTECH</a>, ALL RIGHTS RESERVED</hp>
+            </div>
+        </div>
+    </footer>
+
+    <!-- footer section end -->
+
+    <script src="./js/main.js"></script>
+    <script type="text/javascript">
+        const navLinks = document.querySelector(".nav-links");
+        var nav = document.querySelector("nav");
+        window.addEventListener("scroll", function () {
+            nav.classList.toggle("sticky", window.scrollY > 200);
+            if (window.scrollY > 200 && navLinks.classList.contains("open")) {
+                nav.classList.remove("sticky")
+            }
+        });
+        document.querySelector(".hamburger-container").addEventListener("click", () => {
+            if (navLinks.classList.contains("open")) {
+                if (window.scrollY > 200) {
+                    nav.classList.add("sticky")
+                }
+                navLinks.classList.remove("open");
+            }
+            else {
+                if (nav.classList.contains("sticky")) {
+                    nav.classList.remove("sticky")
+                }
+                navLinks.classList.add("open")
+            }
+        })
+    </script>
+</body>
+
+</html>
